@@ -1,0 +1,1 @@
+// Creates an ordered list of games for the sidebar

@@ -1,0 +1,1 @@
+//Renders the game in a small card for the game list
