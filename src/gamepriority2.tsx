@@ -2,7 +2,7 @@
 
 import Gamecard from "./gamecard"
 
-function Gamepriority2() {
+export default function Gamepriority2() {
     return(
         <>
         <p>Game Priority 2</p>
@@ -10,5 +10,3 @@ function Gamepriority2() {
         </>
     )
 }
-
-export default Gamepriority2

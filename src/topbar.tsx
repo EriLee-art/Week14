@@ -1,6 +1,6 @@
 import Gamerandom from "./gamerandom";
 
-function Topbar() {
+export default function Topbar() {
     return(
         <>
         <p>Top Bar</p>
@@ -8,5 +8,3 @@ function Topbar() {
         </>
     )
 }
-
-export default Topbar

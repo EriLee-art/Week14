@@ -1,13 +1,11 @@
 import Gamelist from "./gamelist"
 
 // Sidebar for the application
-function Sidebar() {
+export default function Sidebar() {
     return(
-        <>
-        <p>Sidebar</p>
-        <Gamelist />
-        </>
+        <div className="container text-center">
+            <p>Sidebar</p>
+            <Gamelist />
+        </div>
     )
 }
-
-export default Sidebar
