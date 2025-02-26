@@ -1,8 +1,12 @@
-// Sidebar for the application
+import Gamelist from "./gamelist"
 
+// Sidebar for the application
 function Sidebar() {
     return(
+        <>
         <p>Sidebar</p>
+        <Gamelist />
+        </>
     )
 }
 
