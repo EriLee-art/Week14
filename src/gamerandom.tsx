@@ -2,7 +2,17 @@
 // First chooses from priority, if none in priority, then chooses from regular
 
 export default function Gamerandom() {
-    return(
-        <p>Game Random</p>
+
+    const randomSelect = () => {
+        alert("Your game has been chosen!")
+    }
+
+    return( 
+    <>
+        <p>Click to Randomly Select a game from your game list!</p>
+        <button className="btn btn-outline-primary" onClick={randomSelect}>
+                Select Game
+            </button>
+    </>
     )
 }

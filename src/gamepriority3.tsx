@@ -2,11 +2,32 @@
 
 import Gamecard from "./gamecard"
 
-export default function Gamepriority3() {
+export default function Gamepriority3({ margin }: { margin:string }) {
+
+    let gameName = [
+        {
+            id: 0,
+            order: 1,
+            game: `Call of Duty: Black Ops 6`
+        },
+        {
+            id: 1,
+            order: 2,
+            game: `The Legend of Zelda: Echoes of Wisdom`
+        },
+        {
+            id: 2,
+            order: 3,
+            game: `Pokemon Legends: Z-A`
+        }
+    ]
+
     return(
         <>
-        <p>Game Priority 3</p>
-        <Gamecard />
+            <h4 className={margin}>Game Priority 3</h4>
+            <Gamecard name={gameName[0]}/>
+            <Gamecard name={gameName[1]}/>
+            <Gamecard name={gameName[2]}/>
         </>
     )
 }

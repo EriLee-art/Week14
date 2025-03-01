@@ -2,6 +2,8 @@
 
 export default function Gamedisplay() {
     return(
-        <p>Game Display</p>
+        <div className="container-fluid text-center flex-grow-1 d-flex flex-column">
+            <p>Game Display</p>
+        </div>
     )
 }
