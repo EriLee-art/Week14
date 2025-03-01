@@ -17,15 +17,11 @@ export default function Gamecard({ name }: GameProperties) {
         <p>
             {name.order}: {name.game}
             
-            <button className="btn btn-success ms-2 p-1" onClick={ 
-                () => alert(`Editing!`)
-            }>
-                <img src={editIcon} style={{ width: "1rem" }}/>
+            <button className="btn btn-success ms-2 p-1" onClick={ () => alert(`Editing!`) }>
+                    <img src={editIcon} style={{ width: "1rem" }}/>
             </button>
 
-            <button className="btn btn-danger ms-2 p-1" onClick={
-                () => alert(`Deleting!`)
-            }>
+            <button className="btn btn-danger ms-2 p-1" onClick={ () => alert(`Deleting!`) }>
                 <img src={trashIcon} style={{ width: "1rem" }}/>
             </button>
         </p>
