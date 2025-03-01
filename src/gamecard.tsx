@@ -3,6 +3,7 @@ import editIcon from "./assets/pen-solid.svg"
 
 //Renders the game in a small card for the game list
 
+// Properties being looked out by GameCard for the prop passed down from GamePriority 1-3
 type GameProperties = {
     name: {
         id:number,
@@ -11,6 +12,7 @@ type GameProperties = {
     }
 }
 
+// Returns the order of the the game alongside the game's name and two buttons for editing and deleting
 export default function Gamecard({ name }: GameProperties) {
 
     return(

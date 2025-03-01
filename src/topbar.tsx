@@ -1,5 +1,6 @@
 import Gamerandom from "./gamerandom";
 
+// Contains the JSX/button for randomly selecting a game from the GameList, using GameRandom
 export default function Topbar() {
     return(
         <div className="container-fluid text-center">

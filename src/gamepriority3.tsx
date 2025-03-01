@@ -1,7 +1,6 @@
-// Gives priority to certain games the user wishes to prioritize
-
 import Gamecard from "./gamecard"
 
+// Creates a priority list of games the user wishes to prioritize
 export default function Gamepriority3({ margin }: { margin:string }) {
 
     let gameName = [
@@ -22,6 +21,8 @@ export default function Gamepriority3({ margin }: { margin:string }) {
         }
     ]
 
+    // Returns all the game objects into a div
+    // Header takes in a margin from GameList
     return(
         <>
             <h4 className={margin}>Game Priority 3</h4>
