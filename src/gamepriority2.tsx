@@ -25,9 +25,11 @@ export default function Gamepriority2({ margin }: { margin:string }) {
     return(
         <>
             <h4 className={margin}>Game Priority 2</h4>
-            <Gamecard name={gameName[0]}/>
-            <Gamecard name={gameName[1]}/>
-            <Gamecard name={gameName[2]}/>
+            {gameName.map( game => <div key={game.id}>
+                        <Gamecard name={game}/>
+                    </div>
+                )
+            }
         </>
     )
 }

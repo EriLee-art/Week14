@@ -5,6 +5,7 @@ import editIcon from "./assets/pen-solid.svg"
 
 type GameProperties = {
     name: {
+        id:number,
         order:number,
         game:string
     }
